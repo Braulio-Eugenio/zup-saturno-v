@@ -1,6 +1,10 @@
 package br.com.zup.estrelas.saturnov.universidade;
 
 public class Professor extends Funcionario {
+	public Professor(String nome, String cpf, String numeroDeRegistro, String orgaoDeLotacao, double salario) {
+		super(nome, cpf, numeroDeRegistro, orgaoDeLotacao, salario);
+		
+	}
 	private String nivelGraduacao;
 	private String diciplinaMinistrada;
 	private int qtdAlunos;
@@ -9,7 +13,7 @@ public class Professor extends Funcionario {
 	
 	public String getNivelGraduacao() {
 		return nivelGraduacao;
-	}
+
 	public void setNivelGraduacao(String nivelGraduacao) {
 		this.nivelGraduacao = nivelGraduacao;
 	}

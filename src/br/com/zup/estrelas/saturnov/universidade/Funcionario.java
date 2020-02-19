@@ -8,10 +8,23 @@ public class Funcionario {
 	private String orgaoDeLotacao;
 	private double salario;
 
+	public Funcionario(String nome, String cpf, String numeroDeRegistro, String orgaoDeLotacao, double salario) {
+		this.cpf = cpf;
+		this.nome = nome;
+		this.numeroDeRegistro = numeroDeRegistro;
+		this.orgaoDeLotacao = orgaoDeLotacao;
+		this.salario = salario;
+	}
+
+	public void aumentoDeSalario() {
+		this.salario += salario * 0.10;
+
+	}
+
 	public String getNome() {
 		return nome;
 	}
- 
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
@@ -48,7 +61,5 @@ public class Funcionario {
 
 		this.salario = salario;
 	}
-	
-	
 
 }
