@@ -1,6 +1,6 @@
 package br.com.zup.estrelas.saturnov.calculo.area;
 
-public class ProgramaCalculo extends FiguraGeometrica {
+public class ProgramaCalculo {
 
 	public static void main(String[] args) {
 
@@ -14,12 +14,6 @@ public class ProgramaCalculo extends FiguraGeometrica {
 		System.out.println("A área do círculo é: " + circulo.calculoArea());
 		System.out.println("A área do triangulo é: " + triangulo.calculoArea());
 
-	}
-
-	@Override
-	public double calculoArea() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }
