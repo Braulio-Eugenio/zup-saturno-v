@@ -6,11 +6,11 @@ public class ProgramaCartaoDeCredito {
 		CartaoDeCredito cartao = new CartaoDeCredito(1000,  "Jorge Nustacio Sideribelo") ;
 		
 		cartao.aumentaLimite(0);
-		cartao.diminuiLimite(100);
+		cartao.diminuiLimite(0);
 		
 		
-		System.out.println("Titular do cartão : " + cartao.getNomeCliente());	
-		System.out.println("O limite de crédito disponivel é : " + cartao.getLimite());	
+		System.out.println("Titular do cartão: " + cartao.getNomeCliente());	
+		System.out.println("O limite total do seu cartão é: " + cartao.getLimite());
 		
 		
 		cartao.realizaCompra(540);

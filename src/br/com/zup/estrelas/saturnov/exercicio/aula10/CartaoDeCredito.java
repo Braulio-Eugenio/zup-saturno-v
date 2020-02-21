@@ -34,8 +34,8 @@ public class CartaoDeCredito {
 	}
 
 	public void imprimeFatura() {
-		System.out.printf("O limite de compra é : %.2f\n  ", limite);
-		System.out.printf("A sua fatura é : %.2f ", saldoDaFatura);
+		System.out.printf("O limite atual de compra é de: %.2f\n", limite);
+		System.out.printf("A sua fatura para o dia 10/03/2020 é de: %.2f ", saldoDaFatura);
 	}
 
 	public double getLimite() {
