@@ -1,4 +1,4 @@
-package br.com.zup.estrelas.saturnov.cores;
+package br.com.zup.estrelas.saturnov.estrutura.de.dados;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ public class EstruturaDedadosMap {
 		String nome;
 		String cpf;
 
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.println("Digite " + (i + 1) + "º nome :");
 			nome = teclado.nextLine();
 			System.out.println("Digite o cpf :");
@@ -28,9 +28,10 @@ public class EstruturaDedadosMap {
 		estruturaMap.remove(cpf);
 		System.out.println("USUARIO REMOVIDO.\nOs usuario atuais são: ");
 		for (String mostrarNome : estruturaMap.values()) {
-			System.out.println( mostrarNome);
+			System.out.println(mostrarNome);
 		}
-		
+
+		teclado.close();
 	}
 }
 /*

@@ -1,4 +1,4 @@
-package br.com.zup.estrelas.saturnov.cores;
+package br.com.zup.estrelas.saturnov.estrutura.de.dados;
 
 import java.util.ArrayList;
 import java.util.List;
