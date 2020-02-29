@@ -9,7 +9,7 @@ public class ProgramaTelevisao {
 			controle.aumentarVolume();
 		}
 
-		for (int i = 0; i < 1400 ; i++) {
+		for (int i = 0; i < 1300 ; i++) {
 			controle.aumentaCanal();
 		}
 		for (int i = 0; i < 0; i++) {

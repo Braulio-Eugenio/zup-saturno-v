@@ -18,12 +18,17 @@ public class Estacionamento {
 	Map<String, Carro> estacionamentoMap = new HashMap<String, Carro>();
 	
 	
-	public boolean registraEntrada(Carro carro) {
-		if(this.capacidadeMaxima < capacidadeMaxima) {
+	public void registraEntrada(Carro carro) {
+		if(this.capacidadeMaxima < capacidadeMaxima ) {
 			
 		}
-		return false;
+		
+		
 	}
+	
+			
+		
+	
 	
 
 	public double getValorEmCaixa() {
